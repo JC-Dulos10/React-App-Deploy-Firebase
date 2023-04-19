@@ -1,4 +1,4 @@
- * {
+  * {
     box-sizing: border-box;
  }
 
@@ -6,47 +6,92 @@
     margin: 0;
  }
 
-.container {
+.inside-container {
    margin: 1rem;
    text-align: center;
 }
 
- .nav {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
- }
 
  .site-title {
-   font-style: 2rem;
+   font-style: 10rem;
+   font-size: 11%;
+
  }
 
- .nav ul {
- padding: 0;
- margin: 0;
- list-style: none;
- display: flex;
- gap: 1rem;
+
+
+.nav-title{
+   color: inherit;
+   text-decoration: none;
+   font-size: 32px;
 }
 
- .nav a {
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: stretch;
-    padding: .25rem;
- }
-
- .nav li.active {
-   background-color: #555;
+.me-auto{
+   font-size: 24px;
 }
 
- .nav li.hover {
-   background-color: #777;
+.nav-section{
+   background-color: #FDBF00;
+   color: black;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.container-home-summary{
+   background: rgb(219,164,0);
+   background: linear-gradient(90deg, rgba(219,164,0,1) 0%, rgba(254,210,76,1) 57%, rgba(255,225,134,1) 100%, rgba(240,240,240,1) 100%);
+   width: 75%;
+   padding: 1%;
+   margin: auto;
+   text-align: center;
+}
+
+.about-title{
+   font-size: 30px;
+   text-align: left;
+   padding-left: 1%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #303030;
+}
+
+.about-content{
+   font-size: 20px;
+   text-align: justify;
+   padding: 3%;
+   text-indent: 3%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+   background-image: url(./Asset/images/page-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+   background-attachment: fixed;
+}
+
+.about-pic{
+   padding: 3%;
+   text-align: center;
+   margin: auto;
+   resize: both;
+}
+
+.about-title-education{
+   font-size: 30px;
+   text-align: right;
+   padding-left: 1%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #303030;
+}
+
+.card-group, .card{
+   background: transparent;
+}
+
+.text-muted{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px;
+   color: black;
+}
